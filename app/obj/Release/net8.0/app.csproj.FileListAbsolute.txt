@@ -1,0 +1,61 @@
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/bin/Release/net8.0/appsettings.Development.json
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/bin/Release/net8.0/appsettings.json
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/bin/Release/net8.0/app.staticwebassets.runtime.json
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/bin/Release/net8.0/app.exe
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/bin/Release/net8.0/app.deps.json
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/bin/Release/net8.0/app.runtimeconfig.json
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/bin/Release/net8.0/app.dll
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/bin/Release/net8.0/app.pdb
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/app.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/app.AssemblyInfoInputs.cache
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/app.AssemblyInfo.cs
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/app.csproj.CoreCompileInputs.cache
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/app.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/app.RazorAssemblyInfo.cache
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/app.RazorAssemblyInfo.cs
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/app.sourcelink.json
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/staticwebassets.build.json
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/staticwebassets.development.json
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/staticwebassets/msbuild.app.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/staticwebassets/msbuild.build.app.props
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.app.props
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.app.props
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/staticwebassets.pack.json
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/scopedcss/bundle/app.styles.css
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/scopedcss/projectbundle/app.bundle.scp.css
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/app.dll
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/refint/app.dll
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/app.pdb
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/app.genruntimeconfig.cache
+C:/Users/пк/OneDrive/Рабочий стол/docker postgres/app/obj/Release/net8.0/ref/app.dll
+/Users/vladislavlevin/Desktop/docker postgres/app/bin/Release/net8.0/appsettings.Development.json
+/Users/vladislavlevin/Desktop/docker postgres/app/bin/Release/net8.0/appsettings.json
+/Users/vladislavlevin/Desktop/docker postgres/app/bin/Release/net8.0/app.staticwebassets.runtime.json
+/Users/vladislavlevin/Desktop/docker postgres/app/bin/Release/net8.0/app
+/Users/vladislavlevin/Desktop/docker postgres/app/bin/Release/net8.0/app.deps.json
+/Users/vladislavlevin/Desktop/docker postgres/app/bin/Release/net8.0/app.runtimeconfig.json
+/Users/vladislavlevin/Desktop/docker postgres/app/bin/Release/net8.0/app.dll
+/Users/vladislavlevin/Desktop/docker postgres/app/bin/Release/net8.0/app.pdb
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/app.AssemblyInfoInputs.cache
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/app.AssemblyInfo.cs
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/app.csproj.CoreCompileInputs.cache
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/app.MvcApplicationPartsAssemblyInfo.cache
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/app.RazorAssemblyInfo.cache
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/app.RazorAssemblyInfo.cs
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/staticwebassets.build.json
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/staticwebassets.development.json
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/staticwebassets/msbuild.app.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/staticwebassets/msbuild.build.app.props
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.app.props
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.app.props
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/staticwebassets.pack.json
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/scopedcss/bundle/app.styles.css
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/scopedcss/projectbundle/app.bundle.scp.css
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/app.dll
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/refint/app.dll
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/app.pdb
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/app.genruntimeconfig.cache
+/Users/vladislavlevin/Desktop/docker postgres/app/obj/Release/net8.0/ref/app.dll

@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+  postgres_db:
+    image: postgres:16.0
+    container_name: PostgresCont 
+    restart: always
+    environment:
+      - POSTGRES_DB=mydatabase
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres123
+    ports:
+      - '1234:1234'
+    volumes:
+      - postgres_db:/var/lib/postgresql/data
+  app:
+    image: counter-image
+    build:
+      context: ./
+      dockerfile: ./app/Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres_db
+    network_mode: bridge
+volumes:
+  postgres_db:
+    driver: local

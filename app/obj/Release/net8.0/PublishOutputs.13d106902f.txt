@@ -1,0 +1,7 @@
+C:\Users\пк\OneDrive\Рабочий стол\docker postgres\app\bin\Release\net8.0\publish\app.exe
+C:\Users\пк\OneDrive\Рабочий стол\docker postgres\app\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\пк\OneDrive\Рабочий стол\docker postgres\app\bin\Release\net8.0\publish\appsettings.json
+C:\Users\пк\OneDrive\Рабочий стол\docker postgres\app\bin\Release\net8.0\publish\app.dll
+C:\Users\пк\OneDrive\Рабочий стол\docker postgres\app\bin\Release\net8.0\publish\app.deps.json
+C:\Users\пк\OneDrive\Рабочий стол\docker postgres\app\bin\Release\net8.0\publish\app.runtimeconfig.json
+C:\Users\пк\OneDrive\Рабочий стол\docker postgres\app\bin\Release\net8.0\publish\app.pdb

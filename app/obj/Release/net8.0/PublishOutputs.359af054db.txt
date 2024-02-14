@@ -1,0 +1,7 @@
+/Users/vladislavlevin/Desktop/docker postgres/app/bin/Release/net8.0/publish/app
+/Users/vladislavlevin/Desktop/docker postgres/app/bin/Release/net8.0/publish/appsettings.Development.json
+/Users/vladislavlevin/Desktop/docker postgres/app/bin/Release/net8.0/publish/appsettings.json
+/Users/vladislavlevin/Desktop/docker postgres/app/bin/Release/net8.0/publish/app.dll
+/Users/vladislavlevin/Desktop/docker postgres/app/bin/Release/net8.0/publish/app.deps.json
+/Users/vladislavlevin/Desktop/docker postgres/app/bin/Release/net8.0/publish/app.runtimeconfig.json
+/Users/vladislavlevin/Desktop/docker postgres/app/bin/Release/net8.0/publish/app.pdb
