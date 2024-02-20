@@ -1,21 +1,22 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using app.DataAccess.Contracts;
 using app.Models;
 
 namespace app.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly IToDoElementRepository _iToDoElementRepository;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(IToDoElementRepository context)
     {
-        _logger = logger;
+        _iToDoElementRepository = context;
     }
 
     public IActionResult Index()
     {
-        return View();
+        return View(_iToDoElementRepository.GetAll().ToList());
     }
 
     public IActionResult Privacy()

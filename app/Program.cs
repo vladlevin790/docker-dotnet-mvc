@@ -1,7 +1,30 @@
+using Microsoft.EntityFrameworkCore;
+using app.DataAccess.Contracts;
+using app.DataAccess.DBContexts;
+using app.DataAccess.Repositories;
+using app.DataAccess.Implementations.Entities;
+
+
+var confbuilder = new ConfigurationBuilder()
+.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+var connectionString = builder.Configuration["ConnectionStrings:DefaultConnection"];
+
+var dataSourceBuilder = new NpgsqlDataSourceBuilder(connectionString);
+dataSourceBuilder.MapEnum<Mood>();
+var dataSource = dataSourceBuilder.Build();
+
+builder.Services.AddDbContext<ApplicationContext>(options => options.UseNpgsql(dataSource));
+
+#region Repositories
+    builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+    builder.Services.AddScoped<IToDoElementRepository, ToDoElementRepository>();
+#endregion
 
 var app = builder.Build();
 

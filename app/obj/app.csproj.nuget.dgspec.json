@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vladislavlevin/Desktop/MVCDOCKER/docker postgres/app/app.csproj": {}
+    "/Users/vladislavlevin/Desktop/MVCDOCKER/docker-postgres/app/app.csproj": {}
   },
   "projects": {
-    "/Users/vladislavlevin/Desktop/MVCDOCKER/docker postgres/app/app.csproj": {
+    "/Users/vladislavlevin/Desktop/MVCDOCKER/docker-postgres/app/app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vladislavlevin/Desktop/MVCDOCKER/docker postgres/app/app.csproj",
+        "projectUniqueName": "/Users/vladislavlevin/Desktop/MVCDOCKER/docker-postgres/app/app.csproj",
         "projectName": "app",
-        "projectPath": "/Users/vladislavlevin/Desktop/MVCDOCKER/docker postgres/app/app.csproj",
+        "projectPath": "/Users/vladislavlevin/Desktop/MVCDOCKER/docker-postgres/app/app.csproj",
         "packagesPath": "/Users/vladislavlevin/.nuget/packages/",
-        "outputPath": "/Users/vladislavlevin/Desktop/MVCDOCKER/docker postgres/app/obj/",
+        "outputPath": "/Users/vladislavlevin/Desktop/MVCDOCKER/docker-postgres/app/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vladislavlevin/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
