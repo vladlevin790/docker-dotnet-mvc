@@ -20,15 +20,6 @@ services:
     networks:
       - web-dev
 
-
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 8080:8080
-    networks:
-      - web-dev
-
   app:
     image: counter-image
     build:
