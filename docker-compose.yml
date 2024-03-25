@@ -1,4 +1,9 @@
 version: '3.8'
+
+networks:
+  web-dev:
+    driver: bridge
+
 services:
   postgres_db:
     image: postgres:16.0
@@ -9,19 +14,31 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres123
     ports:
-      - '1234:1234'
+      - 5432:5432
     volumes:
       - postgres_db:/var/lib/postgresql/data
+    networks:
+      - web-dev
+
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+    networks:
+      - web-dev
+
   app:
     image: counter-image
     build:
       context: ./
       dockerfile: ./app/Dockerfile
     ports:
-      - "8080:8080"
-    depends_on:
-      - postgres_db
-    network_mode: bridge
+      - '5249:8080'
+    networks:
+      - web-dev
+
 volumes:
   postgres_db:
     driver: local

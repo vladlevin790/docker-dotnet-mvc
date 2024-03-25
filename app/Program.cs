@@ -12,14 +12,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
-
 var connectionString = builder.Configuration["ConnectionStrings:DefaultConnection"];
 
-var dataSourceBuilder = new NpgsqlDataSourceBuilder(connectionString);
-dataSourceBuilder.MapEnum<Mood>();
-var dataSource = dataSourceBuilder.Build();
-
-builder.Services.AddDbContext<ApplicationContext>(options => options.UseNpgsql(dataSource));
+builder.Services.AddDbContext<ApplicationContext>(options => options.UseNpgsql(connectionString));
 
 #region Repositories
     builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));

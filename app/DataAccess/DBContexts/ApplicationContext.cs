@@ -13,10 +13,10 @@ namespace app.DataAccess.DBContexts
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.HasPostgresEnum<Status>();
-            modelBuilder.Entity<ToDoElement>(entity =>
-                entity.Property(e => e.ElementStatus).HasColumnType("status_enum"));
-           
+           modelBuilder.Entity<ToDoElement>(entity =>
+            {
+                entity.Property(e => e.Id).UseIdentityColumn(); 
+            });
         }
 
     }

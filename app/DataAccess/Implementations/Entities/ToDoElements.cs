@@ -4,12 +4,6 @@ using app.DataAccess.Implementations.Entities;
 
 namespace app.DataAccess.Implementations.Entities
 {
-    public enum Status
-    {
-        NotStarted,
-        InProgress,
-        Completed
-    }
 
     [Table("to_do_element")]
     public class ToDoElement : BaseEntity
@@ -17,7 +11,13 @@ namespace app.DataAccess.Implementations.Entities
         [Column("text")]
         public string Text {get; set;}
 
-        [Column("status")]
-        public Status ElementStatus {get; set;}
+        [Column("completed")]
+        public bool Completed {get; set;}
+
+        public ToDoElement(string text){
+            Id = 0;
+            Text = text;
+            Completed = false;
+        }
     }
 }
