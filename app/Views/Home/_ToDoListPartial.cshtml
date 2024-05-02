@@ -1,0 +1,15 @@
+@model List<app.DataAccess.Implementations.Entities.ToDoElement>
+
+@foreach (var toDoElement in Model)
+{
+    <tr>
+        <th scope="row">@toDoElement.Id</th>
+        <td>@toDoElement.Text</td>
+        <td><input class="form-check-input" type="checkbox" @(toDoElement.Completed ? "checked" : "") onclick="return false;"></td>
+        <td>
+            <button class="btn btn-danger delete-task-btn" data-task-id="@toDoElement.Id">Delete</button>
+            <button class="btn btn-success ms-1 finish-task-btn" data-task-id="@toDoElement.Id">Finished</button>
+            <button class="btn btn-info ms-1 edit-task-btn" data-task-id="@toDoElement.Id">Edit</button>
+        </td>
+    </tr>
+}

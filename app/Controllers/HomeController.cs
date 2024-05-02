@@ -37,12 +37,13 @@ public class HomeController : Controller
     public IActionResult AddElement(string textElement)
     {
         var newToDoElement = new ToDoElement(textElement);
-        newToDoElement.Completed = false; 
+        newToDoElement.Completed = false;
         _iToDoElementRepository.Add(newToDoElement);
         _iToDoElementRepository.SaveChanges();
-        return Json(newToDoElement);
+        
+        var updatedToDoList = _iToDoElementRepository.GetAll().ToList(); 
+        return PartialView("_ToDoListPartial", updatedToDoList); 
     }
-    
 
     [HttpGet, ActionName("Finish")]
     public IActionResult FinishElement(int id)
@@ -59,9 +60,31 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
-    [HttpGet] 
+
+    [HttpPost, ActionName("Edit")]
+    public IActionResult EditElement(int id, string text)
+    {
+        var existingToDoElement = _iToDoElementRepository.GetById(id);
+        if (existingToDoElement == null)
+        {
+            return NotFound();
+        }
+
+        existingToDoElement.Text = text;
+        _iToDoElementRepository.Update(existingToDoElement);
+        _iToDoElementRepository.SaveChanges();
+
+        return PartialView("_ToDoListPartial", _iToDoElementRepository.GetAll().ToList());
+    }
+
+    [HttpGet]
     public IActionResult GetTask(string text)
     {
+        if (string.IsNullOrEmpty(text))
+        {
+            return BadRequest("Text is required.");
+        }
+
         var task = _iToDoElementRepository.Find(t => t.Text == text);
         if (task != null)
         {
