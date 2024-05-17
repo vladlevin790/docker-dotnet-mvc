@@ -49,7 +49,7 @@ public class HomeController : Controller
     public IActionResult FinishElement(int id)
     {
         var changedToDoElement = _iToDoElementRepository.GetById(id);
-        changedToDoElement.Completed = true;
+        changedToDoElement.Completed = !changedToDoElement.Completed;
         _iToDoElementRepository.Update(changedToDoElement);
         _iToDoElementRepository.SaveChanges();
         return RedirectToAction("Index");
